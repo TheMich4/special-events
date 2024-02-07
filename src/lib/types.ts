@@ -4,4 +4,5 @@ export interface SpecialEvent {
 	date: string;
 	cars?: string[];
 	type?: 'Team Event' | 'Super Session';
+	endDate?: Date;
 }
