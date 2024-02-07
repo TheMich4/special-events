@@ -2,7 +2,6 @@
 	import type { SpecialEvent } from '$lib/types';
 
 	export let race: SpecialEvent;
-	console.log({ race });
 </script>
 
 <a class="card bg-initial card-hover overflow-hidden" href="/">
