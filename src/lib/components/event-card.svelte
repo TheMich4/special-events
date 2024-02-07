@@ -17,5 +17,14 @@
 
 	<hr class="opacity-50" />
 
-	<footer class="p-4 flex justify-start items-center space-x-4"><small>{race.date}</small></footer>
+	<footer class="p-4 flex justify-between items-center space-x-4">
+		<small>{race.date}</small>
+
+		{#if race.type}
+			<span
+				class={`badge ${race.type === 'Team Event' ? 'variant-filled-primary' : 'variant-filled-secondary'}`}
+				>{race.type}</span
+			>
+		{/if}
+	</footer>
 </a>
