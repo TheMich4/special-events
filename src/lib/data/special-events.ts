@@ -4,121 +4,145 @@ export default [
 	{
 		name: 'Roar',
 		track: 'Daytona International Speedway',
-		date: '12-14 JAN'
+		date: '12-14 JAN',
+		cars: ['LMP3', 'GT4', 'Touring']
 	},
 	{
 		name: 'Daytona 24',
 		track: 'Daytona International Speedway',
-		date: '19-21 JAN'
+		date: '19-21 JAN',
+		cars: ['GTP', 'LMP2', 'GT3']
 	},
 	{
 		name: 'Daytona 500',
 		track: 'Daytona International Speedway',
-		date: '13-19 FEB'
+		date: '13-19 FEB',
+		cars: ['NASCAR Cup']
 	},
 	{
 		name: 'Bathurst 12',
 		track: 'Mount Panorama Circuit',
-		date: '23-25 FEB'
+		date: '23-25 FEB',
+		cars: ['GT3']
 	},
 	{
 		name: 'Sebring 12',
 		track: 'Sebring International Speedway',
-		date: '22-24 MAR'
+		date: '22-24 MAR',
+		cars: ['GTP', 'LMP2', 'GT3']
 	},
 	{
 		name: 'Road America 500',
 		track: 'Road America',
-		date: '12-14 APR'
+		date: '12-14 APR',
+		cars: ['Nissan GTP', 'Audi 90']
 	},
 	{
 		name: 'Nurburgring 24h',
 		track: 'Nurburgring-Gesamtstrecke 24H',
-		date: '17-19 MAY'
+		date: '17-19 MAY',
+		cars: ['GT3', 'Pcup', 'GT4', 'Touring']
 	},
 	{
 		name: 'Cake 600',
 		track: 'Charlotte Motor Speedway',
-		date: '21-27 MAY'
+		date: '21-27 MAY',
+		cars: ['NASCAR Cup']
 	},
 	{
 		name: 'Watkins Glen 6 Hour',
 		track: 'Watkins Glen Speedway',
-		date: '14-16 JUN'
+		date: '14-16 JUN',
+		cars: ['GTP', 'LMP2', 'GT3']
 	},
 	{
 		name: 'Brickyard 400',
 		track: 'Indianapolis Motor Speedway',
-		date: '16-22 JUL'
+		date: '16-22 JUL',
+		cars: ['NASCAR Cup']
 	},
 	{
 		name: 'MS Charity Event',
 		track: 'TBD Track',
-		date: 'TBD'
+		date: 'TBD',
+		cars: ['TBD']
 	},
 	{
 		name: 'Spa 24',
 		track: 'Circuit de Spa-Francorchamps',
-		date: '19-21 JUL'
+		date: '19-21 JUL',
+		cars: ['GT3']
 	},
 	{
 		name: 'Martinsville MX-500',
 		track: 'Martinsville Speedway',
-		date: '30 JUL and 4 AUG'
+		date: '30 JUL and 4 AUG',
+		cars: ['Global MX-5']
 	},
 	{
 		name: 'Crandon Championship',
 		track: 'Crandon International Raceway',
-		date: '24 AUG'
+		date: '24 AUG',
+		cars: ['Pro 4 Truck']
 	},
 	{
 		name: 'Indy 6 Hour',
 		track: 'Indianapolis Motor Speedway',
-		date: '13-15 SEP'
+		date: '13-15 SEP',
+		cars: ['GTP', 'LMP2', 'GT3']
 	},
 	{
 		name: 'Bristol 500',
 		track: 'Bristol Motor Speedway',
-		date: '17-23 SEP'
+		date: '17-23 SEP',
+		cars: ['NASCAR Cup']
 	},
 	{
 		name: 'Knoxville Nationals',
 		track: 'Knoxville Raceway',
-		date: '27-29 SEP'
+		date: '27-29 SEP',
+		cars: ['410 Winged Sprint Car']
 	},
 	{
 		name: 'Bathurst 1000',
 		track: 'Mount Panorama Circuit',
-		date: '4-6 OCT'
+		date: '4-6 OCT',
+		cars: ['Supercars']
 	},
 	{
 		name: 'Petit Le Mans',
 		track: 'Michelin Raceway Road Atlanta',
-		date: '18-19 OCT'
+		date: '18-19 OCT',
+		cars: ['GTP', 'LMP2', 'GT3']
 	},
 	{
 		name: 'BRSCC iRacing FF1600 Festival',
 		track: 'Brands Hatch',
-		date: '3 NOV'
+		date: '3 NOV',
+		cars: ['FF1600']
 	},
 	{
 		name: 'Fuji 8 Hour',
 		track: 'Fuji International Raceway',
-		date: '15-17 NOV'
+		date: '15-17 NOV',
+		cars: ['GT3']
 	},
 	{
 		name: 'SCCA Runoffs',
 		track: 'Virginia International Raceway',
-		date: '23 NOV'
+		date: '23 NOV',
+		cars: ['6 Classes']
 	},
 	{
 		name: 'Winter Derby',
 		track: 'Five Flags Speedway',
-		date: '26-29 NOV'
+		date: '26-29 NOV',
+		cars: ['Super Late Model']
 	},
 	{
 		name: 'Chili Bowl',
 		track: 'Chili Bowl',
-		date: '14 DEC'
+		date: '14 DEC',
+		cars: ['Dirt Midget']
 	}
 ] as SpecialEvent[];

@@ -9,6 +9,10 @@
 	<div class="p-4 space-y-4">
 		<h3 class="h3">{race.name}</h3>
 		<h6 class="h6">{race.track}</h6>
+
+		{#if race.cars?.length}
+			<p class="text-xs">{race.cars.join(', ')}</p>
+		{/if}
 	</div>
 
 	<hr class="opacity-50" />
