@@ -4,9 +4,11 @@
 	export let race: SpecialEvent;
 
 	const done = race.endDate ? race.endDate < new Date() : false;
+
+	$: href = done && race.id ? `/${race.id}` : '/';
 </script>
 
-<a class={`card bg-initial card-hover overflow-hidden ${done && 'opacity-50'}`} href="/">
+<a class={`card bg-initial card-hover overflow-hidden ${done && 'opacity-50'}`} {href}>
 	<div class="p-4 space-y-4">
 		<h3 class="h3">{race.name}</h3>
 		<h6 class="h6">{race.track}</h6>

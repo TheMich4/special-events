@@ -6,7 +6,10 @@ export default [
 		track: 'Daytona International Speedway',
 		date: '12-14 JAN',
 		cars: ['LMP3', 'GT4', 'Touring'],
-		endDate: new Date('2024-01-14T23:59:59.999Z')
+		endDate: new Date('2024-01-14T23:59:59.999Z'),
+		id: 'roar',
+		cover: '/covers/roar.jpg',
+		fullName: 'Roar Before the 24'
 	},
 	{
 		name: 'Daytona 24',
@@ -14,14 +17,18 @@ export default [
 		date: '19-21 JAN',
 		cars: ['GTP', 'LMP2', 'GT3'],
 		type: 'Team Event',
-		endDate: new Date('2024-01-21T23:59:59.999Z')
+		endDate: new Date('2024-01-21T23:59:59.999Z'),
+		id: 'daytona24',
+		cover: '/covers/daytona24.jpg'
 	},
 	{
 		name: 'Daytona 500',
 		track: 'Daytona International Speedway',
 		date: '13-19 FEB',
 		cars: ['NASCAR Cup'],
-		endDate: new Date('2024-02-19T23:59:59.999Z')
+		endDate: new Date('2024-02-19T23:59:59.999Z'),
+		id: 'daytona500',
+		cover: '/covers/daytona500.jpg'
 	},
 	{
 		name: 'Bathurst 12',
@@ -29,7 +36,9 @@ export default [
 		date: '23-25 FEB',
 		cars: ['GT3'],
 		type: 'Team Event',
-		endDate: new Date('2024-02-25T23:59:59.999Z')
+		endDate: new Date('2024-02-25T23:59:59.999Z'),
+		id: 'bathurst12',
+		cover: '/covers/bathurst12.jpg'
 	},
 	{
 		name: 'Sebring 12',
@@ -37,7 +46,9 @@ export default [
 		date: '22-24 MAR',
 		cars: ['GTP', 'LMP2', 'GT3'],
 		type: 'Team Event',
-		endDate: new Date('2024-03-24T23:59:59.999Z')
+		endDate: new Date('2024-03-24T23:59:59.999Z'),
+		id: 'sebring12',
+		cover: '/covers/sebring12.jpg'
 	},
 	{
 		name: 'Road America 500',
